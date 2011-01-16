@@ -1,11 +1,8 @@
 package com.scunt.app;
 
-import java.util.ArrayList;
-
 import com.scunt.app.LazyAdapter;
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
@@ -13,7 +10,6 @@ public class ScuntApp extends Activity {
 
     ListView list;
     LazyAdapter adapter;
-    private static final String TAG = "AamirDebugging";
 
     /** Called when the activity is first created. */
     @Override
@@ -27,10 +23,9 @@ public class ScuntApp extends Activity {
         setContentView(R.layout.tasks);
         
     	// Code goes here        
-        Log.v(TAG, "You clicked on the Tasks button");
         list=(ListView)findViewById(R.id.list);
         adapter=new LazyAdapter(this, mStrings);
-        list.setAdapter(adapter);        
+        list.setAdapter(adapter);      
     }
     
     // private ArrayList<String, String> mStrings = new ArrayList<String, String>(); 
