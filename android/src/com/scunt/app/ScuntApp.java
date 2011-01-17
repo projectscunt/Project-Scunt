@@ -91,14 +91,15 @@ public class ScuntApp extends Activity {
     	
         String[][] randArr = new String[26][2];
         Random randomInstance = new Random();
-
-        for (int i = 0; i < totalRandom; i++) {
-        	int randomNumber = randomInstance.nextInt(26);
+        int randomNumber = randomInstance.nextInt(26);
+        for (int i = 0; i < 26; i++) {
+        	randomNumber = randomNumber%26;
         	
         	randArr[i][0] = MissionInformationPair[0][randomNumber];
         	randArr[i][1] = MissionInformationPair[1][randomNumber];
         	        	
         	Log.v(TAG, "onCreate: " + i + " pick: " + randArr[i][0] + " (" + randArr[i][1] + ")");
+        	randomNumber++;
         }
                 
     	return randArr;
