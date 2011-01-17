@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/dark_gray" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@+id/widget30" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/specs_05"
+		android:onClick="tasksClicked"
+		android:layout_x="-3px" android:layout_y="354px">
+	</ImageView>
+	<ImageView android:id="@+id/widget31" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/specs_logo"
+		android:layout_x="0px" android:layout_y="1px">
+	</ImageView>
+	<ImageView android:id="@+id/widget32" android:layout_width="317px"
+		android:layout_height="wrap_content" android:src="@drawable/specs_02"
+		android:layout_x="4px" android:layout_y="55px">
+	</ImageView>
+	<ImageView android:id="@+id/widget33" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/specs_03"
+		android:layout_x="0px" android:layout_y="253px">
+	</ImageView>
+	<EditText android:id="@+id/widget35" android:layout_width="78px"
+		android:layout_height="22px" android:text="EditText" android:textSize="30sp"
+		android:layout_x="187px" android:layout_y="98px">
+	</EditText>
+	<EditText android:id="@+id/widget36" android:layout_width="166px"
+		android:layout_height="21px" android:text="EditText" android:textSize="30sp"
+		android:layout_x="102px" android:layout_y="126px">
+	</EditText>
+	<EditText android:id="@+id/widget37" android:layout_width="115px"
+		android:layout_height="21px" android:text="EditText" android:textSize="30sp"
+		android:layout_x="153px" android:layout_y="155px">
+	</EditText>
+	<Spinner android:id="@+id/widget38" android:layout_width="151px"
+		android:layout_height="21px" android:layout_x="114px"
+		android:layout_y="184px">
+	</Spinner>
+	<EditText android:id="@+id/widget39" android:layout_width="156px"
+		android:layout_height="22px" android:text="EditText" android:textSize="30sp"
+		android:layout_x="110px" android:layout_y="213px">
+	</EditText>
+</AbsoluteLayout>
