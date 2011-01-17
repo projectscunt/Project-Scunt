@@ -2,11 +2,15 @@ package com.scunt.app;
 
 import com.scunt.app.LazyAdapter;
 
+import java.io.IOException;
 import java.util.Random;
 
 import android.app.Activity;
+import android.graphics.PixelFormat;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.SurfaceHolder;
 import android.view.View;
 import android.widget.ListView;
 
@@ -34,6 +38,10 @@ public class ScuntApp extends Activity {
         list=(ListView)findViewById(R.id.list);
         adapter=new LazyAdapter(this, tasks);
         list.setAdapter(adapter);      
+    }
+    
+    public void useCamera (View view) {
+
     }
     
     public void initiateSkunt(View view) {

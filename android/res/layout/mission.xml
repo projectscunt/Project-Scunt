@@ -17,6 +17,7 @@
 	</ImageView>
 	<ImageView android:id="@+id/widget51" android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:src="@drawable/mission_08"
+		android:onClick="useCamera"
 		android:layout_x="15px" android:layout_y="379px">
 	</ImageView>
 	<ImageView android:id="@+id/widget55" android:layout_width="60px"
