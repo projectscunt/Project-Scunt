@@ -12,11 +12,11 @@ import android.widget.TextView;
 public class LazyAdapter extends BaseAdapter {
     
     private Activity activity;
-    private String[] data;
+    private String[][] data;
     private static LayoutInflater inflater=null;
     public ImageLoader imageLoader; 
     
-    public LazyAdapter(Activity a, String[] d) {
+    public LazyAdapter(Activity a, String[][] d) {
         activity = a;
         data=d;
         inflater = (LayoutInflater)activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -53,9 +53,12 @@ public class LazyAdapter extends BaseAdapter {
         else
             holder=(ViewHolder)vi.getTag();
         
-        holder.text.setText("Task #"+position);
-        holder.image.setTag(data[position]);
-        imageLoader.DisplayImage(data[position], activity, holder.image);
+        if (data[position][0] != null) {
+            holder.text.setText(data[position][0]);
+            holder.image.setTag(data[position][0]);
+            imageLoader.DisplayImage("http://i.imgur.com/N0EiN.png", activity, holder.image);
+        }
+        
         return vi;
     }
 }
