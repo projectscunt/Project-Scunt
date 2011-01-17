@@ -10,38 +10,42 @@ package com.scunt.app;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int dark_gray=0x7f040000;
+    }
     public static final class drawable {
-        public static final int homescreen_02=0x7f020000;
-        public static final int homescreen_05=0x7f020001;
-        public static final int homescreen_08=0x7f020002;
-        public static final int homescreen_10=0x7f020003;
-        public static final int homescreen_13=0x7f020004;
-        public static final int homescreen_15=0x7f020005;
-        public static final int homescreen_19=0x7f020006;
-        public static final int homescreen_20=0x7f020007;
-        public static final int homescreen_23=0x7f020008;
-        public static final int homescreen_24=0x7f020009;
-        public static final int homescreen_27=0x7f02000a;
-        public static final int icon=0x7f02000b;
-        public static final int stub=0x7f02000c;
+        public static final int bg=0x7f020000;
+        public static final int homescreen_02=0x7f020001;
+        public static final int homescreen_05=0x7f020002;
+        public static final int homescreen_08=0x7f020003;
+        public static final int homescreen_10=0x7f020004;
+        public static final int homescreen_13=0x7f020005;
+        public static final int homescreen_17=0x7f020006;
+        public static final int homescreen_19=0x7f020007;
+        public static final int homescreen_20=0x7f020008;
+        public static final int homescreen_23=0x7f020009;
+        public static final int homescreen_24=0x7f02000a;
+        public static final int homescreen_27=0x7f02000b;
+        public static final int icon=0x7f02000c;
+        public static final int stub=0x7f02000d;
     }
     public static final class id {
-        public static final int check=0x7f050002;
-        public static final int image=0x7f050000;
-        public static final int list=0x7f05000f;
-        public static final int text=0x7f050001;
-        public static final int widget38=0x7f050004;
-        public static final int widget39=0x7f050005;
-        public static final int widget42=0x7f050003;
-        public static final int widget43=0x7f050006;
-        public static final int widget44=0x7f050007;
-        public static final int widget45=0x7f050008;
-        public static final int widget46=0x7f050009;
-        public static final int widget47=0x7f05000a;
-        public static final int widget48=0x7f05000b;
-        public static final int widget49=0x7f05000c;
-        public static final int widget51=0x7f05000d;
-        public static final int widget52=0x7f05000e;
+        public static final int check=0x7f060002;
+        public static final int image=0x7f060000;
+        public static final int list=0x7f06000f;
+        public static final int text=0x7f060001;
+        public static final int widget0=0x7f060003;
+        public static final int widget31=0x7f060004;
+        public static final int widget32=0x7f060005;
+        public static final int widget33=0x7f060006;
+        public static final int widget34=0x7f060007;
+        public static final int widget35=0x7f060008;
+        public static final int widget36=0x7f060009;
+        public static final int widget39=0x7f06000a;
+        public static final int widget40=0x7f06000b;
+        public static final int widget41=0x7f06000c;
+        public static final int widget42=0x7f06000d;
+        public static final int widget44=0x7f06000e;
     }
     public static final class layout {
         public static final int item=0x7f030000;
@@ -49,7 +53,7 @@ public final class R {
         public static final int tasks=0x7f030002;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_name=0x7f050001;
+        public static final int hello=0x7f050000;
     }
 }
